@@ -14,9 +14,9 @@
     "async": "~0.2.10",
     "base60": "0.0.1",
     "padlock": "~1.1.2",
-    "leveldown": "^0.10.2",
+    "leveldown": "git+ssh://git@github.com:rvagg/node-leveldown#0.11-wip",
     "concat-stream": "^1.4.4",
-    "bignum": "^0.6.2",
+    "bignum": "^0.9.0",
     "uuid-v4": "^0.1.0",
     "JSONStream": "^0.8.4",
     "optimist": "^0.6.1",
@@ -24,7 +24,7 @@
     "riak-dulcimer": "^0.1.2"
   },
   "devDependencies": {
-    "nodeunit": "0.8.1",
+    "nodeunit": "0.9.0",
     "precommit-hook": "^1.0.2",
     "jshint": "^2.5.1"
   },
